@@ -1,0 +1,18 @@
+{
+  "name": "agent47",
+  "version": "1.0.0",
+  "description": "Eve agent configured with OpenRouter",
+  "type": "module",
+  "scripts": {
+    "dev": "eve dev",
+    "build": "eve build",
+    "start": "eve start"
+  },
+  "dependencies": {
+    "@openrouter/ai-sdk-provider": "^3.1.0",
+    "ai": "^7.0.166",
+    "dotenv": "^18.0.10",
+    "eve": "^1.0.0-rc.6",
+    "zod": "^4.6.7"
+  }
+}
